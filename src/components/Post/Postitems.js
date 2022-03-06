@@ -27,9 +27,7 @@ const Postitems = (props) => {
                 // console.log("you can like")
             }
         }
-        return () => {
-            checkliked();
-        };
+        return checkliked();
     }, [props.like])
 
     //add like
